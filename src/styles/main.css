@@ -1,0 +1,29 @@
+body,
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    /* justify-content: center; */
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(252, 30, 138);
+}
+
+.container {
+    width: 600px;
+    height: 100vh;
+    background: linear-gradient(rgb(245, 183, 242), rgb(233, 41, 233), rgb(128, 0, 128))
+}
+
+.container h2 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    margin-top: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.container .reset{
+    
+}
