@@ -25,14 +25,14 @@ O Projeto consiste em um jogo interativo de memória, no qual o Player se desafi
     <img src='/src/images/tela-jogo.png' width="80%">
 </div>
 
-<p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=voltar+ao+topo&color=ec38bc&logo" alt="voltar ao topo" /></a></p>
+<p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=voltar+ao+topo&color=00805a&logo" alt="voltar ao topo" /></a></p>
 
 ## :hammer_and_wrench: Funcionalidades
 - [x] Clique nos cards para desvira-los
 - [x] Combinação de pares de cards
 - [x] Reset do jogo
 
-<p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=voltar+ao+topo&color=ec38bc&logo" alt="voltar ao topo" /></a></p>
+<p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=voltar+ao+topo&color=00805a&logo" alt="voltar ao topo" /></a></p>
 
 ## :computer: Tecnologias e recursos utilizados
 - [VSCode](https://code.visualstudio.com/)
@@ -41,7 +41,7 @@ O Projeto consiste em um jogo interativo de memória, no qual o Player se desafi
 #### Fontes
 - Monospace
 
-<p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=voltar+ao+topo&color=ec38bc&logo" alt="voltar ao topo" /></a></p>
+<p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=voltar+ao+topo&color=00805a&logo" alt="voltar ao topo" /></a></p>
 
 ## :woman_technologist: Desenvolvedora
 
@@ -56,4 +56,4 @@ O Projeto consiste em um jogo interativo de memória, no qual o Player se desafi
 <a href="https://www.linkedin.com/in/evely-tereza-518a18215/"><img src="https://img.shields.io/static/v1?label&message=/in/evelytereza&color=0A66C2&style=plastic&logo=linkedin" alt="link de acesso ao meu LinkedIn" /></a>
 <a href="mailto:terezaevely@gmail.com"><img src="https://img.shields.io/static/v1?label&message=terezaevely@gmail.com&color=whitesmoke&style=plastic&logo=gmail" alt="link para me mandar um e-mail" /></a>
 
-<p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=voltar+ao+topo&color=ec38bc&logo" alt="voltar ao topo" /></a></p>
+<p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=voltar+ao+topo&color=00805a&logo" alt="voltar ao topo" /></a></p>

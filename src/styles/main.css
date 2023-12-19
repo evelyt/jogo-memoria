@@ -8,7 +8,7 @@ body,
 
 body {
     min-height: 100vh;
-    background-color: #fc1e8a;
+    background-color: #1efc94;
     user-select: none;
 }
 
@@ -20,8 +20,8 @@ body {
     background: linear-gradient(325deg,
             /*Raio de inicio do gradiente*/
             #03001e 0%,
-            #800080 30%,
-            #ec38bc 70%,
+            #00805a 30%,
+            #38ec92 70%,
             #fdeff9 100%);
     padding: 40px 60px;
     height: 100vh;
@@ -44,14 +44,14 @@ body {
     padding: 15px 20px;
     width: 100%;
     background-color: transparent;
-    border: 2px solid #e989ec;
+    border: 2px solid #89ece4;
     color: #ffffff;
     cursor: pointer;
 }
 
 /* quando der o clique no butao a cor do texto e fundo mudara. */
 .reset:focus {
-    color: #ec38bc;
+    color: #38d7ec;
     background-color: #fff;
 }
 
