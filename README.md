@@ -4,6 +4,8 @@
 Jogo da Memória
 </h1>
 
+# <h3>:link:<a href='https://evelyt.github.io/jogo-memoria/'> Clique aqui para jogar 🎮</a></h3>
+
 <details>
     <summary>Sumário</summary>
     <ol>
