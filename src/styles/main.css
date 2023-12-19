@@ -9,6 +9,7 @@ body,
 body {
     min-height: 100vh;
     background-color: #fc1e8a;
+    user-select: none;
 }
 
 /* Estilizacao do Container */
@@ -16,12 +17,14 @@ body {
     position: relative;
     flex-direction: column;
     gap: 30px;
-    background: linear-gradient(325deg, /*Raio de inicio do gradiente*/
+    background: linear-gradient(325deg,
+            /*Raio de inicio do gradiente*/
             #03001e 0%,
             #800080 30%,
             #ec38bc 70%,
             #fdeff9 100%);
     padding: 40px 60px;
+    height: 100vh;
 }
 
 /* h2 - Jogo da memoria */
@@ -34,7 +37,7 @@ body {
 }
 
 /* button - class ="reset" */
-.reset{
+.reset {
     font-size: 1.5em;
     font-weight: 600;
     letter-spacing: 0.1em;
@@ -47,30 +50,57 @@ body {
 }
 
 /* quando der o clique no butao a cor do texto e fundo mudara. */
-.reset:focus{
+.reset:focus {
     color: #ec38bc;
     background-color: #fff;
 }
 
 /* Estilizacao do da parte onde ficara os cards */
 
-.game{
+.game {
     display: flex;
+    justify-content: center;
     width: 500px;
     height: 350px;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     flex-wrap: wrap;
     gap: 10px;
     transform-style: preserve-3d;
     perspective: 500px;
 }
 
-.item{
+.item {
     position: relative;
     width: 100px;
     height: 100px;
     background-color: #fff;
+    font-size: 3em;
+    transform: rotateY(180deg); 
+    transition: 0.25s;
+    border-radius: 10%;
+}
 
+/* Conteudo depois da classe .item */
+.item::after{
+    content: "";
+    position: absolute;
+    inset: 0; /*Para sobrepor exatamento o elemento*/
+    background: #404040;
+    transform: rotateY(0deg);
+    transition: 0.25s;
+    backface-visibility: hidden;
+    border-radius: 10%;
+    /* opacity: 0.85; */
+}
+
+/* Toda vez que haver as classes item e boxOpen JUNTAS: */
+.item.boxOpen{
+    transform: rotateY(0deg);
+}
+
+.boxOpen::after,
+.boxMatch::after{
+    transform: rotateY(180deg);
 }
 
 /* Fim da estilizacao do Container */
