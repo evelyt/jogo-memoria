@@ -1,6 +1,6 @@
 <div id="top"></div>
 <h1>
-<img src="src/images/para-titulo.png" width="9%" alt="img dos elementos">
+<img src="src/images//telas/para-titulo.png" width="9%" alt="img dos elementos">
 Jogo da Memória
 </h1>
 
@@ -22,7 +22,7 @@ Jogo da Memória
 O Projeto consiste em um jogo interativo de memória, no qual o Player se desafiara a lembrar dos cards formando pares. Segue abaixo tela do game: 
 
 <div align="center">
-    <img src='/src/images/tela-jogo.png' width="80%">
+    <img src='/src/images/telas/tela-jogo.png' width="80%">
 </div>
 
 <p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=voltar+ao+topo&color=00805a&logo" alt="voltar ao topo" /></a></p>
