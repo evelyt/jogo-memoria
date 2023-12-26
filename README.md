@@ -1,6 +1,6 @@
 <div id="top"></div>
 <h1>
-<img src="src/images//telas/para-titulo.png" width="9%" alt="img dos elementos">
+<img src="src/images/telas/para-titulo.png" width="9%" alt="img dos elementos">
 Jogo da Memória
 </h1>
 
